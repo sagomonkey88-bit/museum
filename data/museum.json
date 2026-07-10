@@ -157,10 +157,10 @@
     "aw-6dkts7",
     "aw-6dkfp3",
     "aw-8zks9c",
-    "aw-8zkyld",
-    "aw-8zkhya",
-    "aw-8zkc59",
-    "aw-8zkpcb"
+    "aw-fre0j3",
+    "aw-ftl5s4",
+    "aw-fwxge5",
+    "aw-fx18e6"
   ],
   "rooms": [
     {
@@ -708,12 +708,12 @@
             "temp": "neutral"
           },
           "_screen": {
-            "x": 429.53605390624995,
-            "y": 366.6631604828644,
-            "w": 367.08066484375,
-            "h": 31.904471846771244,
-            "cx": 613.076386328125,
-            "cy": 382.61539640625,
+            "x": 235.86677500000002,
+            "y": 281.83726440185546,
+            "w": 174.698225,
+            "h": 15.183732446289065,
+            "cx": 323.2158875,
+            "cy": 289.42913062499997,
             "wM": 10.4,
             "hM": 0.9039062500000001
           }
@@ -1053,7 +1053,7 @@
       },
       "exitDoor": {
         "wall": "east",
-        "offset": 4.51
+        "offset": 2.58
       },
       "artworks": [
         {
@@ -1269,10 +1269,10 @@
     {
       "origin": {
         "x": 34.9,
-        "z": -59.35
+        "z": -73.1
       },
-      "id": "room-p9xtv5",
-      "name": "5. 새 섹션",
+      "id": "room-fjl7u1",
+      "name": "5. 인상주의",
       "intro": "",
       "introTitleStyle": {
         "font": "serif",
@@ -1301,20 +1301,16 @@
         }
       },
       "size": {
-        "w": 20,
-        "d": 20,
+        "w": 17.5,
+        "d": 19.95,
         "h": 4.2
       },
       "wall": {
         "preset": "deep-red",
-        "pattern": "plain",
-        "color": "#fff995",
-        "patternOpacity": 1,
-        "patternScale": 2.6,
-        "patternMirror": true
+        "pattern": true
       },
       "floor": {
-        "preset": "ash-plank"
+        "preset": "walnut-herringbone"
       },
       "lighting": {
         "mood": "warm",
@@ -1343,11 +1339,11 @@
             "w": 80,
             "h": 12.1
           },
-          "scale": 18,
+          "scale": 10,
           "placement": {
             "wall": "east",
-            "x": 8.15,
-            "centerHeightCm": 210
+            "x": 5.2,
+            "centerHeightCm": 202
           },
           "frame": {
             "style": "gold",
@@ -1360,9 +1356,9 @@
           }
         },
         {
-          "id": "aw-8zkyld",
-          "image": "assets/artworks/aw-8zkyld.png",
-          "thumb": "assets/thumbs/aw-8zkyld.png",
+          "id": "aw-fre0j3",
+          "image": "assets/artworks/aw-fre0j3.png",
+          "thumb": "assets/thumbs/aw-fre0j3.png",
           "caption": {
             "title": "Monet_-_Impression,_Sunrise",
             "artist": "",
@@ -1378,8 +1374,8 @@
           },
           "scale": 5,
           "placement": {
-            "wall": "north",
-            "x": 9.37,
+            "wall": "south",
+            "x": 6.35,
             "centerHeightCm": 210
           },
           "frame": {
@@ -1393,77 +1389,11 @@
           }
         },
         {
-          "id": "aw-8zkhya",
-          "image": "assets/artworks/aw-8zkhya.png",
-          "thumb": "assets/thumbs/aw-8zkhya.png",
+          "id": "aw-ftl5s4",
+          "image": "assets/artworks/aw-ftl5s4.png",
+          "thumb": "assets/thumbs/aw-ftl5s4.png",
           "caption": {
-            "title": "Edgar_Degas_-_La_Classe_de_danse",
-            "artist": "",
-            "year": "",
-            "medium": "",
-            "collection": "",
-            "credit": "Public domain",
-            "sourceUrl": ""
-          },
-          "sizeCm": {
-            "w": 69.7,
-            "h": 80
-          },
-          "scale": 4,
-          "placement": {
-            "wall": "south",
-            "x": 6.81,
-            "centerHeightCm": 219
-          },
-          "frame": {
-            "style": "gold",
-            "matte": false,
-            "matteColor": "#f3ead8"
-          },
-          "light": {
-            "intensity": 1.2,
-            "temp": "warm"
-          }
-        },
-        {
-          "id": "aw-8zkc59",
-          "image": "assets/artworks/aw-8zkc59.png",
-          "thumb": "assets/thumbs/aw-8zkc59.png",
-          "caption": {
-            "title": "Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago",
-            "artist": "",
-            "year": "",
-            "medium": "",
-            "collection": "",
-            "credit": "Public domain",
-            "sourceUrl": ""
-          },
-          "sizeCm": {
-            "w": 80,
-            "h": 62.1
-          },
-          "scale": 4,
-          "placement": {
-            "wall": "south",
-            "x": 13.96,
-            "centerHeightCm": 255
-          },
-          "frame": {
-            "style": "gold",
-            "matte": false,
-            "matteColor": "#f3ead8"
-          },
-          "light": {
-            "intensity": 1.2,
-            "temp": "warm"
-          }
-        },
-        {
-          "id": "aw-8zkpcb",
-          "image": "assets/artworks/aw-8zkpcb.png",
-          "thumb": "assets/thumbs/aw-8zkpcb.png",
-          "caption": {
-            "title": "Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876",
+            "title": "Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876-2",
             "artist": "",
             "year": "",
             "medium": "",
@@ -1477,8 +1407,74 @@
           },
           "scale": 5,
           "placement": {
-            "wall": "west",
-            "x": 6.03,
+            "wall": "south",
+            "x": 15.18,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-fwxge5",
+          "image": "assets/artworks/aw-fwxge5.png",
+          "thumb": "assets/thumbs/aw-fwxge5.png",
+          "caption": {
+            "title": "images-2",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 69.7,
+            "h": 80
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "north",
+            "x": 4.49,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-fx18e6",
+          "image": "assets/artworks/aw-fx18e6.png",
+          "thumb": "assets/thumbs/aw-fx18e6.png",
+          "caption": {
+            "title": "images",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 62.2
+          },
+          "scale": 4,
+          "placement": {
+            "wall": "north",
+            "x": 13.75,
             "centerHeightCm": 210
           },
           "frame": {
@@ -1492,7 +1488,49 @@
           }
         }
       ],
-      "texts": []
+      "texts": [
+        {
+          "id": "tx-foh7h2",
+          "role": "free",
+          "text": "5. 인상주의 ",
+          "placement": {
+            "wall": "east",
+            "x": 14.1,
+            "centerHeightCm": 210
+          },
+          "widthCm": 1069,
+          "style": {
+            "font": "sans",
+            "weight": 500,
+            "italic": false,
+            "sizeCm": 35.6,
+            "color": "#F2E9DB",
+            "letterSpacing": 0.02,
+            "lineHeight": 1.6,
+            "shadow": "none",
+            "shadowColor": ""
+          },
+          "panel": {
+            "align": "center",
+            "bg": "none"
+          },
+          "light": {
+            "on": true,
+            "intensity": 1.4,
+            "temp": "warm"
+          },
+          "_screen": {
+            "x": 222.04111631403947,
+            "y": 292.21513422197404,
+            "w": 180.01965193562515,
+            "h": 12.56973155605195,
+            "cx": 312.05094228185203,
+            "cy": 298.5,
+            "wM": 10.69,
+            "hM": 0.7464208984374999
+          }
+        }
+      ]
     }
   ]
 }
