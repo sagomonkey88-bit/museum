@@ -1,0 +1,1498 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "slug": "my-museum",
+    "title": "서양미술사",
+    "subtitle": "",
+    "curator": "",
+    "intro": "",
+    "createdAt": "2026-07-09",
+    "language": "ko",
+    "deployUrl": ""
+  },
+  "titleStyle": {
+    "font": "serif",
+    "weight": 700,
+    "sizeCm": 28,
+    "color": "#F2E9DB",
+    "letterSpacing": 0.06,
+    "lineHeight": 1.35
+  },
+  "introStyle": {
+    "font": "sans",
+    "weight": 400,
+    "sizeCm": 9,
+    "color": "#D9C9A8",
+    "letterSpacing": 0.02,
+    "lineHeight": 1.7
+  },
+  "titlePanel": {
+    "align": "center",
+    "bg": "none",
+    "widthCm": 900,
+    "light": {
+      "on": true,
+      "intensity": 1.2,
+      "temp": "warm"
+    }
+  },
+  "lobby": {
+    "size": {
+      "w": 18,
+      "d": 12,
+      "h": 8
+    },
+    "wall": {
+      "preset": "gray",
+      "pattern": "plain",
+      "color": "#5f5a53",
+      "patternOpacity": 1,
+      "patternScale": 2.6,
+      "patternMirror": false
+    },
+    "floor": {
+      "preset": "walnut-plank"
+    },
+    "lighting": {
+      "mood": "warm",
+      "ambient": 0.85
+    },
+    "decor": {
+      "chandelier": true,
+      "columns": true,
+      "cofferedCeiling": true,
+      "goldTrim": true,
+      "carpet": true
+    },
+    "artworks": [],
+    "texts": [
+      {
+        "id": "tx-title",
+        "role": "title",
+        "text": "",
+        "placement": {
+          "wall": "north",
+          "x": 9,
+          "centerHeightCm": 340
+        },
+        "widthCm": 900,
+        "style": {
+          "font": "serif",
+          "weight": 700,
+          "italic": false,
+          "sizeCm": 28,
+          "color": "#F2E9DB",
+          "letterSpacing": 0.06,
+          "lineHeight": 1.35,
+          "shadow": "none",
+          "shadowColor": ""
+        },
+        "panel": {
+          "align": "center",
+          "bg": "none"
+        },
+        "light": {
+          "on": true,
+          "intensity": 1.2,
+          "temp": "warm"
+        }
+      },
+      {
+        "id": "tx-intro",
+        "role": "intro",
+        "text": "",
+        "placement": {
+          "wall": "north",
+          "x": 6,
+          "centerHeightCm": 155
+        },
+        "widthCm": 340,
+        "style": {
+          "font": "sans",
+          "weight": 400,
+          "italic": false,
+          "sizeCm": 9,
+          "color": "#D9C9A8",
+          "letterSpacing": 0.02,
+          "lineHeight": 1.7,
+          "shadow": "none",
+          "shadowColor": ""
+        },
+        "panel": {
+          "align": "left",
+          "bg": "none"
+        },
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      }
+    ]
+  },
+  "avatarDefaults": {
+    "preset": "capybara",
+    "body": "default",
+    "garment": "#8DA98A"
+  },
+  "route": [
+    "aw-2w7xpc",
+    "aw-3de1vh",
+    "aw-2wp27f",
+    "aw-2wo6qe",
+    "aw-2wnfnd",
+    "aw-431tsm",
+    "aw-431q2l",
+    "aw-431gbj",
+    "aw-431mek",
+    "aw-431bqi",
+    "aw-4hv4fr",
+    "aw-4huz7q",
+    "aw-4huqwp",
+    "aw-4hunqo",
+    "aw-4hui1n",
+    "aw-6dkh64",
+    "aw-6dkm95",
+    "aw-6dkpa6",
+    "aw-6dkts7",
+    "aw-6dkfp3",
+    "aw-8zks9c",
+    "aw-8zkyld",
+    "aw-8zkhya",
+    "aw-8zkc59",
+    "aw-8zkpcb"
+  ],
+  "rooms": [
+    {
+      "id": "room-p9t6h1",
+      "name": "1. 르네상스",
+      "intro": "",
+      "introTitleStyle": {
+        "font": "serif",
+        "weight": 700,
+        "sizeCm": 12,
+        "color": "#3A2F24",
+        "letterSpacing": 0.04,
+        "lineHeight": 1.4
+      },
+      "introBodyStyle": {
+        "font": "sans",
+        "weight": 400,
+        "sizeCm": 6.5,
+        "color": "#5A4C3C",
+        "letterSpacing": 0.01,
+        "lineHeight": 1.75
+      },
+      "introPanel": {
+        "align": "left",
+        "bg": "light",
+        "widthCm": 260,
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      },
+      "size": {
+        "w": 20,
+        "d": 20,
+        "h": 5
+      },
+      "wall": {
+        "preset": "deep-red",
+        "pattern": "damask",
+        "color": "#df6d6d",
+        "patternOpacity": 1,
+        "patternScale": 2.6,
+        "patternMirror": true
+      },
+      "floor": {
+        "preset": "walnut-plank"
+      },
+      "lighting": {
+        "mood": "warm",
+        "ambient": 0.6
+      },
+      "decor": {
+        "benches": false,
+        "spotlights": true
+      },
+      "exitDoor": {
+        "wall": "north",
+        "offset": 10
+      },
+      "artworks": [
+        {
+          "id": "aw-2w7xpc",
+          "image": "assets/artworks/aw-2w7xpc.webp",
+          "thumb": "assets/thumbs/aw-2w7xpc.webp",
+          "caption": {
+            "title": "Masaccio,_trinità",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 39.7,
+            "h": 80
+          },
+          "scale": 4,
+          "placement": {
+            "wall": "west",
+            "x": 15.28,
+            "centerHeightCm": 234
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#fed27c"
+          },
+          "light": {
+            "intensity": 1.8,
+            "temp": "neutral"
+          }
+        },
+        {
+          "id": "aw-3de1vh",
+          "image": "assets/artworks/aw-3de1vh.webp",
+          "thumb": "assets/thumbs/aw-3de1vh.webp",
+          "caption": {
+            "title": "Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 50.3
+          },
+          "scale": 6,
+          "placement": {
+            "wall": "west",
+            "x": 5.9,
+            "centerHeightCm": 234
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.3,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-2wp27f",
+          "image": "assets/artworks/aw-2wp27f.webp",
+          "thumb": "assets/thumbs/aw-2wp27f.webp",
+          "caption": {
+            "title": "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 53.6,
+            "h": 80
+          },
+          "scale": 1.743,
+          "placement": {
+            "wall": "south",
+            "x": 15.22,
+            "centerHeightCm": 250
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-2wo6qe",
+          "image": "assets/artworks/aw-2wo6qe.webp",
+          "thumb": "assets/thumbs/aw-2wo6qe.webp",
+          "caption": {
+            "title": "_The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 62.1
+          },
+          "scale": 6,
+          "placement": {
+            "wall": "south",
+            "x": 4.55,
+            "centerHeightCm": 250
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.7,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-2wnfnd",
+          "image": "assets/artworks/aw-2wnfnd.webp",
+          "thumb": "assets/thumbs/aw-2wnfnd.webp",
+          "caption": {
+            "title": "The_Creation_of_Adam_perspective_fix",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 37.2
+          },
+          "scale": 9,
+          "placement": {
+            "wall": "east",
+            "x": 10,
+            "centerHeightCm": 250
+          },
+          "frame": {
+            "style": "gold",
+            "matte": true,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 0.5,
+            "temp": "warm"
+          }
+        }
+      ],
+      "origin": {
+        "x": -10.05,
+        "z": -20
+      },
+      "texts": [
+        {
+          "id": "tx-351h1g",
+          "role": "free",
+          "text": "1. 르네상스",
+          "placement": {
+            "wall": "north",
+            "x": 10,
+            "centerHeightCm": 332
+          },
+          "widthCm": 1496,
+          "style": {
+            "font": "pretendard",
+            "weight": 700,
+            "italic": false,
+            "sizeCm": 50,
+            "color": "#F2E9DB",
+            "letterSpacing": 0.02,
+            "lineHeight": 1.6,
+            "shadow": "none",
+            "shadowColor": ""
+          },
+          "panel": {
+            "align": "center",
+            "bg": "none"
+          },
+          "light": {
+            "on": true,
+            "intensity": 1.8,
+            "temp": "neutral"
+          },
+          "_screen": {
+            "x": 179.6388320703125,
+            "y": 355.4579900983048,
+            "w": 528.031417890625,
+            "h": 34.54893066276551,
+            "cx": 443.654541015625,
+            "cy": 372.73245542968755,
+            "wM": 14.96,
+            "hM": 0.9788281250000002
+          }
+        }
+      ]
+    },
+    {
+      "id": "room-p9t6h2",
+      "name": "2. 바로크",
+      "intro": "",
+      "introTitleStyle": {
+        "font": "serif",
+        "weight": 700,
+        "sizeCm": 12,
+        "color": "#3A2F24",
+        "letterSpacing": 0.04,
+        "lineHeight": 1.4
+      },
+      "introBodyStyle": {
+        "font": "sans",
+        "weight": 400,
+        "sizeCm": 6.5,
+        "color": "#5A4C3C",
+        "letterSpacing": 0.01,
+        "lineHeight": 1.75
+      },
+      "introPanel": {
+        "align": "left",
+        "bg": "light",
+        "widthCm": 260,
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      },
+      "size": {
+        "w": 20,
+        "d": 20,
+        "h": 4.2
+      },
+      "wall": {
+        "preset": "deep-red",
+        "pattern": "fabric",
+        "color": "#26324e",
+        "patternOpacity": 1,
+        "patternScale": 2.6,
+        "patternMirror": true
+      },
+      "floor": {
+        "preset": "walnut-plank"
+      },
+      "lighting": {
+        "mood": "warm",
+        "ambient": 0.6
+      },
+      "decor": {
+        "benches": false,
+        "spotlights": true
+      },
+      "exitDoor": {
+        "wall": "east",
+        "offset": 0.9
+      },
+      "artworks": [
+        {
+          "id": "aw-431tsm",
+          "image": "assets/artworks/aw-431tsm.webp",
+          "thumb": "assets/thumbs/aw-431tsm.webp",
+          "caption": {
+            "title": "Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 75.6
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "north",
+            "x": 14.64,
+            "centerHeightCm": 196
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-431q2l",
+          "image": "assets/artworks/aw-431q2l.webp",
+          "thumb": "assets/thumbs/aw-431q2l.webp",
+          "caption": {
+            "title": "GENTILESCHI_Judith",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 65.7,
+            "h": 80
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "north",
+            "x": 6.02,
+            "centerHeightCm": 203
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-431gbj",
+          "image": "assets/artworks/aw-431gbj.webp",
+          "thumb": "assets/thumbs/aw-431gbj.webp",
+          "caption": {
+            "title": "Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 61.7,
+            "h": 80
+          },
+          "scale": 2.52,
+          "placement": {
+            "wall": "west",
+            "x": 5.16,
+            "centerHeightCm": 207
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-431mek",
+          "image": "assets/artworks/aw-431mek.webp",
+          "thumb": "assets/thumbs/aw-431mek.webp",
+          "caption": {
+            "title": "La_ronda_de_noche,_por_Rembrandt_van_Rijn",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 65.1
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "west",
+            "x": 13.58,
+            "centerHeightCm": 207
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-431bqi",
+          "image": "assets/artworks/aw-431bqi.webp",
+          "thumb": "assets/thumbs/aw-431bqi.webp",
+          "caption": {
+            "title": "1665_Girl_with_a_Pearl_Earring",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 67.5,
+            "h": 80
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "east",
+            "x": 8.84,
+            "centerHeightCm": 180
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        }
+      ],
+      "origin": {
+        "x": -10.05,
+        "z": -40
+      },
+      "texts": [
+        {
+          "id": "tx-sec-room-p9t6h2",
+          "role": "section",
+          "text": "",
+          "placement": {
+            "wall": "east",
+            "x": 14.8,
+            "centerHeightCm": 264
+          },
+          "widthCm": 1040,
+          "style": {
+            "font": "pretendard",
+            "weight": 700,
+            "italic": false,
+            "sizeCm": 48,
+            "color": "#ffffff",
+            "letterSpacing": 0.04,
+            "lineHeight": 1.4,
+            "shadow": "none",
+            "shadowColor": ""
+          },
+          "bodyStyle": {
+            "italic": false,
+            "shadow": "soft",
+            "shadowColor": "",
+            "font": "pretendard",
+            "weight": 400,
+            "sizeCm": 26,
+            "color": "#ffffff",
+            "letterSpacing": 0.01,
+            "lineHeight": 1.75
+          },
+          "panel": {
+            "align": "center",
+            "bg": "none"
+          },
+          "light": {
+            "on": true,
+            "intensity": 1.6,
+            "temp": "neutral"
+          },
+          "_screen": {
+            "x": 429.53605390624995,
+            "y": 366.6631604828644,
+            "w": 367.08066484375,
+            "h": 31.904471846771244,
+            "cx": 613.076386328125,
+            "cy": 382.61539640625,
+            "wM": 10.4,
+            "hM": 0.9039062500000001
+          }
+        }
+      ]
+    },
+    {
+      "origin": {
+        "x": 9.95,
+        "z": -57.35
+      },
+      "id": "room-p9wyn3",
+      "name": "3. 신고전주의 VS 낭만주의",
+      "intro": "",
+      "introTitleStyle": {
+        "font": "serif",
+        "weight": 700,
+        "sizeCm": 12,
+        "color": "#3A2F24",
+        "letterSpacing": 0.04,
+        "lineHeight": 1.4
+      },
+      "introBodyStyle": {
+        "font": "sans",
+        "weight": 400,
+        "sizeCm": 6.5,
+        "color": "#5A4C3C",
+        "letterSpacing": 0.01,
+        "lineHeight": 1.75
+      },
+      "introPanel": {
+        "align": "left",
+        "bg": "light",
+        "widthCm": 260,
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      },
+      "size": {
+        "w": 12.25,
+        "d": 20,
+        "h": 4.2
+      },
+      "wall": {
+        "preset": "deep-red",
+        "pattern": "damask",
+        "color": "#5e2626",
+        "patternOpacity": 1,
+        "patternScale": 2.6,
+        "patternMirror": false
+      },
+      "floor": {
+        "preset": "walnut-herringbone"
+      },
+      "lighting": {
+        "mood": "warm",
+        "ambient": 0.6
+      },
+      "decor": {
+        "benches": false,
+        "spotlights": true
+      },
+      "exitDoor": {
+        "wall": "east",
+        "offset": 2.59
+      },
+      "artworks": [
+        {
+          "id": "aw-4hv4fr",
+          "image": "assets/artworks/aw-4hv4fr.webp",
+          "thumb": "assets/thumbs/aw-4hv4fr.webp",
+          "caption": {
+            "title": "Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3692_;_MR_1432",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 62.1
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "west",
+            "x": 15.46,
+            "centerHeightCm": 206
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-4huz7q",
+          "image": "assets/artworks/aw-4huz7q.webp",
+          "thumb": "assets/thumbs/aw-4huz7q.webp",
+          "caption": {
+            "title": "La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Musée_du_Louvre_Peintures_RF_1158",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 44.6
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "west",
+            "x": 9.73,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-4huqwp",
+          "image": "assets/artworks/aw-4huqwp.webp",
+          "thumb": "assets/thumbs/aw-4huqwp.webp",
+          "caption": {
+            "title": "David_-_Napoleon_crossing_the_Alps_-_Malmaison1",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 66.7,
+            "h": 80
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "west",
+            "x": 4.2,
+            "centerHeightCm": 201
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-4hunqo",
+          "image": "assets/artworks/aw-4hunqo.webp",
+          "thumb": "assets/thumbs/aw-4hunqo.webp",
+          "caption": {
+            "title": "La_Liberté_guidant_le_peuple_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_129_-_après_restauration_2024",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 64
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "east",
+            "x": 14.86,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-4hui1n",
+          "image": "assets/artworks/aw-4hui1n.webp",
+          "thumb": "assets/thumbs/aw-4hui1n.webp",
+          "caption": {
+            "title": "JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19)",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 54.6
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "east",
+            "x": 7.86,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        }
+      ],
+      "texts": [
+        {
+          "id": "tx-4ntnks",
+          "role": "free",
+          "text": "3. 신고전주의 VS 낭만주의",
+          "placement": {
+            "wall": "south",
+            "x": 6.13,
+            "centerHeightCm": 245
+          },
+          "widthCm": 963,
+          "style": {
+            "font": "pretendard",
+            "weight": 500,
+            "italic": false,
+            "sizeCm": 32.1,
+            "color": "#F2E9DB",
+            "letterSpacing": 0.02,
+            "lineHeight": 1.6,
+            "shadow": "none",
+            "shadowColor": ""
+          },
+          "panel": {
+            "align": "center",
+            "bg": "none"
+          },
+          "light": {
+            "on": true,
+            "intensity": 1.6,
+            "temp": "warm"
+          },
+          "_screen": {
+            "x": 166.4711818478953,
+            "y": 361.5899200744356,
+            "w": 554.9429831154338,
+            "h": 39.832333260726934,
+            "cx": 443.9426734056122,
+            "cy": 381.5060867047991,
+            "wM": 9.63,
+            "hM": 0.6912158203125001
+          }
+        }
+      ]
+    },
+    {
+      "origin": {
+        "x": 22.2,
+        "z": -57.35
+      },
+      "id": "room-p9xgf4",
+      "name": "4. 사실주의",
+      "intro": "",
+      "introTitleStyle": {
+        "font": "serif",
+        "weight": 700,
+        "sizeCm": 12,
+        "color": "#3A2F24",
+        "letterSpacing": 0.04,
+        "lineHeight": 1.4
+      },
+      "introBodyStyle": {
+        "font": "sans",
+        "weight": 400,
+        "sizeCm": 6.5,
+        "color": "#5A4C3C",
+        "letterSpacing": 0.01,
+        "lineHeight": 1.75
+      },
+      "introPanel": {
+        "align": "left",
+        "bg": "light",
+        "widthCm": 260,
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      },
+      "size": {
+        "w": 12.7,
+        "d": 20,
+        "h": 4.2
+      },
+      "wall": {
+        "preset": "deep-red",
+        "pattern": "damask",
+        "color": "#5e2626",
+        "patternOpacity": 1,
+        "patternScale": 2.6,
+        "patternMirror": false
+      },
+      "floor": {
+        "preset": "walnut-herringbone"
+      },
+      "lighting": {
+        "mood": "warm",
+        "ambient": 0.6
+      },
+      "decor": {
+        "benches": false,
+        "spotlights": true
+      },
+      "exitDoor": {
+        "wall": "east",
+        "offset": 4.51
+      },
+      "artworks": [
+        {
+          "id": "aw-6dkh64",
+          "image": "assets/artworks/aw-6dkh64.png",
+          "thumb": "assets/thumbs/aw-6dkh64.png",
+          "caption": {
+            "title": "Jean-François_Millet_-_Gleaners_-_Google_Art_Project_2",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 59.8
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "west",
+            "x": 4.72,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-6dkm95",
+          "image": "assets/artworks/aw-6dkm95.png",
+          "thumb": "assets/thumbs/aw-6dkm95.png",
+          "caption": {
+            "title": "JEAN-FRANÇOIS_MILLET_-_El_Ángelus_(Museo_de_Orsay,_1857-1859._Óleo_sobre_lienzo,_55.5_x_66_cm)",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 66.5
+          },
+          "scale": 2.904,
+          "placement": {
+            "wall": "west",
+            "x": 12.42,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-6dkpa6",
+          "image": "assets/artworks/aw-6dkpa6.png",
+          "thumb": "assets/thumbs/aw-6dkpa6.png",
+          "caption": {
+            "title": "Gustave_Courbet_-_The_Stonebreakers_-_WGA05457",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 48.7
+          },
+          "scale": 4,
+          "placement": {
+            "wall": "north",
+            "x": 9.01,
+            "centerHeightCm": 205
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-6dkts7",
+          "image": "assets/artworks/aw-6dkts7.png",
+          "thumb": "assets/thumbs/aw-6dkts7.png",
+          "caption": {
+            "title": "Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project_2",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 36.8
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "north",
+            "x": 3.12,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-6dkfp3",
+          "image": "assets/artworks/aw-6dkfp3.png",
+          "thumb": "assets/thumbs/aw-6dkfp3.png",
+          "caption": {
+            "title": "Honoré_Daumier,_The_Third-Class_Carriage_-_The_Metropolitan_Museum_of_Art",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 57.9
+          },
+          "scale": 3,
+          "placement": {
+            "wall": "south",
+            "x": 6.35,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        }
+      ],
+      "texts": [
+        {
+          "id": "tx-6vjja8",
+          "role": "free",
+          "text": "4. 사실주의",
+          "placement": {
+            "wall": "east",
+            "x": 12.2,
+            "centerHeightCm": 210
+          },
+          "widthCm": 1200,
+          "style": {
+            "font": "pretendard",
+            "weight": 700,
+            "italic": false,
+            "sizeCm": 40,
+            "color": "#F2E9DB",
+            "letterSpacing": 0.02,
+            "lineHeight": 1.6,
+            "shadow": "none",
+            "shadowColor": ""
+          },
+          "panel": {
+            "align": "center",
+            "bg": "none"
+          },
+          "light": {
+            "on": true,
+            "intensity": 1.5,
+            "temp": "neutral"
+          },
+          "_screen": {
+            "x": 178.75389374999997,
+            "y": 291.65944638061524,
+            "w": 201.57487500000002,
+            "h": 13.681107238769531,
+            "cx": 279.54133125,
+            "cy": 298.5,
+            "wM": 12,
+            "hM": 0.814453125
+          }
+        }
+      ]
+    },
+    {
+      "origin": {
+        "x": 34.9,
+        "z": -59.35
+      },
+      "id": "room-p9xtv5",
+      "name": "5. 새 섹션",
+      "intro": "",
+      "introTitleStyle": {
+        "font": "serif",
+        "weight": 700,
+        "sizeCm": 12,
+        "color": "#3A2F24",
+        "letterSpacing": 0.04,
+        "lineHeight": 1.4
+      },
+      "introBodyStyle": {
+        "font": "sans",
+        "weight": 400,
+        "sizeCm": 6.5,
+        "color": "#5A4C3C",
+        "letterSpacing": 0.01,
+        "lineHeight": 1.75
+      },
+      "introPanel": {
+        "align": "left",
+        "bg": "light",
+        "widthCm": 260,
+        "light": {
+          "on": false,
+          "intensity": 1,
+          "temp": "warm"
+        }
+      },
+      "size": {
+        "w": 20,
+        "d": 20,
+        "h": 4.2
+      },
+      "wall": {
+        "preset": "deep-red",
+        "pattern": "plain",
+        "color": "#fff995",
+        "patternOpacity": 1,
+        "patternScale": 2.6,
+        "patternMirror": true
+      },
+      "floor": {
+        "preset": "ash-plank"
+      },
+      "lighting": {
+        "mood": "warm",
+        "ambient": 0.6
+      },
+      "decor": {
+        "benches": true,
+        "spotlights": true
+      },
+      "exitDoor": null,
+      "artworks": [
+        {
+          "id": "aw-8zks9c",
+          "image": "assets/artworks/aw-8zks9c.png",
+          "thumb": "assets/thumbs/aw-8zks9c.png",
+          "caption": {
+            "title": "Claude_Monet_-_The_Water_Lilies_-_The_Clouds_-_Google_Art_Project",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 12.1
+          },
+          "scale": 18,
+          "placement": {
+            "wall": "east",
+            "x": 8.15,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 0.5,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-8zkyld",
+          "image": "assets/artworks/aw-8zkyld.png",
+          "thumb": "assets/thumbs/aw-8zkyld.png",
+          "caption": {
+            "title": "Monet_-_Impression,_Sunrise",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 62.1
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "north",
+            "x": 9.37,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-8zkhya",
+          "image": "assets/artworks/aw-8zkhya.png",
+          "thumb": "assets/thumbs/aw-8zkhya.png",
+          "caption": {
+            "title": "Edgar_Degas_-_La_Classe_de_danse",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 69.7,
+            "h": 80
+          },
+          "scale": 4,
+          "placement": {
+            "wall": "south",
+            "x": 6.81,
+            "centerHeightCm": 219
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-8zkc59",
+          "image": "assets/artworks/aw-8zkc59.png",
+          "thumb": "assets/thumbs/aw-8zkc59.png",
+          "caption": {
+            "title": "Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 62.1
+          },
+          "scale": 4,
+          "placement": {
+            "wall": "south",
+            "x": 13.96,
+            "centerHeightCm": 255
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        },
+        {
+          "id": "aw-8zkpcb",
+          "image": "assets/artworks/aw-8zkpcb.png",
+          "thumb": "assets/thumbs/aw-8zkpcb.png",
+          "caption": {
+            "title": "Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876",
+            "artist": "",
+            "year": "",
+            "medium": "",
+            "collection": "",
+            "credit": "Public domain",
+            "sourceUrl": ""
+          },
+          "sizeCm": {
+            "w": 80,
+            "h": 59.5
+          },
+          "scale": 5,
+          "placement": {
+            "wall": "west",
+            "x": 6.03,
+            "centerHeightCm": 210
+          },
+          "frame": {
+            "style": "gold",
+            "matte": false,
+            "matteColor": "#f3ead8"
+          },
+          "light": {
+            "intensity": 1.2,
+            "temp": "warm"
+          }
+        }
+      ],
+      "texts": []
+    }
+  ]
+}
